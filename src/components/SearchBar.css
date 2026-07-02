@@ -1,0 +1,25 @@
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar__label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text-h);
+  font-weight: 600;
+}
+
+.search-bar__input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text-h);
+  font: inherit;
+}
+
+.search-bar__input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

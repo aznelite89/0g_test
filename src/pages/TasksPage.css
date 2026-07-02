@@ -1,0 +1,23 @@
+.tasks-page {
+  width: min(720px, 100%);
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.tasks-page__header h1 {
+  margin: 0 0 8px;
+  color: var(--text-h);
+}
+
+.tasks-page__header p {
+  margin: 0 0 24px;
+}
+
+.tasks-page__status,
+.tasks-page__error {
+  margin: 0;
+}
+
+.tasks-page__error {
+  color: #dc2626;
+}
